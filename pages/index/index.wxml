@@ -1,0 +1,1171 @@
+<view class="pt-wrapper">
+  <view class="pt-pagewrapper">
+    <view class="pt-floorpage page_floorpage"></view>
+    <view class="pt-pagelist">
+      <view class="pt-page page_1 {{isActive === 0 ? 'pt-page-current' : ''}}" bind:touchstart="mcTouchS" bind:touchend="mcTouchE" data-id="1" style="">
+        <view class="pt-page-bg-box" style="width: 100%; height: 100%; cursor: default; opacity: 1; background-color: rgb(25, 34, 51);"></view>
+        <view>
+          <view class="pt-page-element-list-box" style="width:100%;height:100%;position: absolute;top:0;left: 54rpx;;">
+            <view class="element element_30 fadeInLeft" style="position: absolute; left: 19.999rpx; top: 858rpx; width: 604rpx; height: 42rpx; z-index: 118; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="30">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(77, 201, 174); font-size: 28rpx; line-height: 42rpx; letter-spacing: 12rpx; text-align: center; vertical-align: top;">
+                      <view class="texts" style="">
+                        <view class="current">不畏风雨 方得始终</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_28 fadeInLeft" style="position: absolute; left: 152rpx; top: 119rpx; width: 324rpx; height: 42rpx; z-index: 117; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="28">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: bold; font-style: normal; color: rgb(201, 205, 214); font-size: 40rpx; line-height: 42rpx; letter-spacing: 2rpx; text-align: center; vertical-align: top;">
+                      <view class="texts" style="">
+                        <view class="current">{{baseInfo.position}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_26 fadeInUp" style="position: absolute; left: 357rpx; top: 951rpx; width: 86rpx; height: 46rpx; z-index: 115; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="26">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 86rpx; height: 46rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894433.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_25 fadeInUp" style="position: absolute; left: 426rpx; top: 934rpx; width: 110rpx; height: 72rpx; z-index: 114; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="25">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 110rpx; height: 72rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894605.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_24 fadeInUp" style="position: absolute; left: 190rpx; top: 941rpx; width: 159rpx; height: 83rpx; z-index: 113; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="24">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 159rpx; height: 83rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894415.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_23 fadeInUp" style="position: absolute; left: 91rpx; top: 924rpx; width: 96rpx; height: 73rpx; z-index: 112; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="23">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 96rpx; height: 73rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894982.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_22 fadeInUp" style="position: absolute; left: 35rpx; top: 938rpx; width: 143rpx; height: 97rpx; z-index: 111; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="22">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 143rpx; height: 97rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894550.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_21 fadeInUp" style="position: absolute; left: 460rpx; top: 939rpx; width: 158rpx; height: 95rpx; z-index: 110; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="21">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 158rpx; height: 95rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894679.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_20 rotateIn" style="position: absolute; left: 177rpx; top: 254rpx; width: 278rpx; height: 286rpx; z-index: 109; display: block; animation: rotateIn 1s ease 1s 1 both;" eletype="img" data-id="20">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask" style="-webkit-mask-box-image-slice: initial;mask-box-image-width: initial;mask-box-image-outset: initial;mask-box-image-repeat: initial;">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 278rpx; height: 286rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;border-radius: 50%;" src="https://wx.qlogo.cn/mmhead/Q3auHgzwzM4yU4q0t5APadCkcMFQ9qfuFezdSViasSXf4wEgIzhmnJg/0"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_19 pulse" style="position: absolute; left: 163rpx; top: 241rpx; width: 306rpx; height: 313rpx; z-index: 108; animation: pulse 3s linear 1.3s infinite both;" eletype="img" data-id="19">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 306rpx; height: 313rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894342.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_18 fadeInLeft" style="position: absolute; left: 155.5rpx; top: 696rpx; width: 331rpx; height: 80rpx; z-index: 107; display: block; animation: fadeInLeft 1s ease 1.4s 1 both;" eletype="img" data-id="18">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 331rpx; height: 80rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894716.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_17 fadeInUp" style="position: absolute; left: 318rpx; top: 588rpx; width: 6rpx; height: 74rpx; z-index: 106; display: block; animation: fadeInUp 1s ease 1.3s 1 both;" eletype="img" data-id="17">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 6rpx; height: 74rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894850.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_15 fadeInLeft" style="position: absolute; left: 187rpx; top: 109rpx; width: 255rpx; height: 67rpx; z-index: 104; display: block; animation: fadeInLeft 1s ease 0.6s 1 both;" eletype="img" data-id="15">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 255rpx; height: 67rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894138.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_14 fadeInLeft" style="position: absolute; left: 173.5rpx; top: 795rpx; width: 295rpx; height: 28rpx; z-index: 103; display: block; animation: fadeInLeft 1s ease 1.6s 1 both;" eletype="img" data-id="14">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 295rpx; height: 28rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894563.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_13 fadeIn" style="position: absolute; left: -48rpx; top: -1rpx; width: 100%;; height: 396rpx; z-index: 102; display: block; animation: fadeIn 1s ease 0.5s 1 both;" eletype="img" data-id="13">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 100%;; height: 396rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894938.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_12 flash" style="position: absolute; left: -37rpx; top: 342rpx; width: 708rpx; height: 704rpx; z-index: 101; animation: flash 3s linear 0.8s infinite both;" eletype="img" data-id="12">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 708rpx; height: 704rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894214.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_11 " style="position:absolute;left:-67rpx;top:0rpx;width:755rpx;height:1109rpx;z-index:100;" eletype="img" data-id="11">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 755rpx; height: 1109rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495875894928.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="pt-page page_3 {{isActive === 1 ? 'pt-page-current' : ''}}" bind:touchstart="mcTouchS" bind:touchend="mcTouchE" data-id="3" style="">
+        <view class="pt-page-bg-box" style="width: 100%; height: 100%; cursor: default; opacity: 1; background-color: rgb(25, 34, 51);"></view>
+        <view>
+          <view class="pt-page-element-list-box" style="width:100%;height:100%;position: absolute;top:0;left: 38rpx;;">
+            <view class="element element_91 fadeInLeft" style="position: absolute; left: 448rpx; top: 900rpx; width: 142rpx; height: 36rpx; z-index: 136; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="91">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current">{{baseInfo.blob}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_90 fadeInLeft" style="position: absolute; left: 372rpx; top: 901rpx; width: 85rpx; height: 38rpx; z-index: 135; display: block; animation: fadeInLeft 1s ease 1s 1 both;" eletype="div" data-id="90">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">个人博客：</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_89 fadeInLeft" style="position: absolute; left: 448rpx; top: 856rpx; width: 140rpx; height: 35rpx; z-index: 134; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="89">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current">{{baseInfo.github}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_88 fadeInLeft" style="position: absolute; left: 372rpx; top: 857rpx; width: 85rpx; height: 30rpx; z-index: 133; display: block; animation: fadeInLeft 1s ease 0.9s 1 both;" eletype="div" data-id="88">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174);">github</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_87 fadeInLeft" style="position: absolute; left: 448rpx; top: 811rpx; width: 148rpx; height: 36rpx; z-index: 132; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="87">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <span style="display: none;">
+                        <span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+                          <span class="char1" style="display: inline-block; visibility: visible;">
+                            北
+                          </span>
+                          <span class="char2" style="display: inline-block; visibility: visible;">
+                            京
+                          </span>
+                        </span>
+                      </span>
+                      <view class="texts" style="display: table;">
+                        <view class="current">北京</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_86 fadeInLeft" style="position: absolute; left: 372rpx; top: 812rpx; width: 90rpx; height: 35rpx; z-index: 131; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="div" data-id="86">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">现居：</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_85 fadeInLeft" style="position: absolute; left: 448rpx; top: 768rpx; width: 145rpx; height: 35rpx; z-index: 130; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="85">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current">{{baseInfo.duration}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_84 fadeInLeft" style="position: absolute; left: 372rpx; top: 769rpx; width: 85rpx; height: 35rpx; z-index: 129; display: block; animation: fadeInLeft 1s ease 0.7s 1 both;" eletype="div" data-id="84">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">经验：</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_83 fadeInLeft" style="position: absolute; left: 160rpx; top: 902rpx; width: 184rpx; height: 36rpx; z-index: 128; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="83">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current">{{baseInfo.phone}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_82 fadeInLeft" style="position: absolute; left: 84rpx; top: 903rpx; width: 85rpx; height: 58rpx; z-index: 127; display: block; animation: fadeInLeft 1s ease 1s 1 both;" eletype="div" data-id="82">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">手机|微信：</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_80 fadeInLeft" style="position: absolute; left: 160rpx; top: 858rpx; width: 184rpx; height: 36rpx; z-index: 126; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="80">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current">{{baseInfo.email}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_79 fadeInLeft" style="position: absolute; left: 84rpx; top: 859rpx; width: 85rpx; height: 30rpx; z-index: 125; display: block; animation: fadeInLeft 1s ease 0.9s 1 both;" eletype="div" data-id="79">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">邮箱：</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_78 fadeInLeft" style="position: absolute; left: 160rpx; top: 813rpx; width: 184rpx; height: 36rpx; z-index: 124; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="78">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current">重庆大学</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_77 fadeInLeft" style="position: absolute; left: 84rpx; top: 814rpx; width: 86rpx; height: 35rpx; z-index: 123; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="div" data-id="77">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">院校：</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_76 fadeInLeft" style="position: absolute; left: 84rpx; top: 771rpx; width: 85rpx; height: 34rpx; z-index: 122; display: block; animation: fadeInLeft 1s ease 0.7s 1 both;" eletype="div" data-id="76">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">学历：</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_75 fadeInLeft" style="position: absolute; left: 160rpx; top: 770rpx; width: 184rpx; height: 36rpx; z-index: 121; display: block; animation: fadeInLeft 1s ease 0.8s 1 both;" eletype="plugin" data-id="75">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 25rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <span style="display: none;">
+                        <span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+                          <span class="char1" style="display: inline-block; visibility: visible;">
+                            本
+                          </span>
+                          <span class="char2" style="display: inline-block; visibility: visible;">
+                            科
+                          </span>
+                        </span>
+                      </span>
+                      <view class="texts" style="display: table;">
+                        <view class="current">本科</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_74 fadeInLeft" style="position: absolute; left: 67rpx; top: 617rpx; width: 508rpx; height: 98rpx; z-index: 120; display: block; animation: fadeInLeft 1s ease 0.5s 1 both;" eletype="plugin" data-id="74">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(77, 201, 174); font-size: 28rpx; line-height: 42rpx; letter-spacing: 0rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current" wx:for="{{baseInfo.intr}}">{{item}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <!-- <view class="element element_73 fadeInLeft" style="position: absolute; left: 197.5rpx; top: 538rpx; width: 252rpx; height: 50rpx; z-index: 119; display: block; animation: fadeInLeft 1s ease 0.7s 1 both;" eletype="plugin" data-id="73">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: bold; font-style: normal; color: rgb(255, 255, 255); font-size: 48rpx; line-height: 50rpx; letter-spacing: 2rpx; text-align: center; vertical-align: top;">
+                      <view class="texts">
+                        <view class="current">{{baseInfo.name}}</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view> -->
+            <view class="element element_39 fadeInUp" style="position: absolute; left: 43rpx; top: 748rpx; width: 558rpx; height: 214rpx; z-index: 108; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="39">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 558rpx; height: 214rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876404576.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <!-- <view class="element element_38 fadeIn" style="position: absolute; left: 208rpx; top: 273rpx; width: 231rpx; height: 237rpx; z-index: 107; display: block; animation: fadeIn 1s ease 0.3s 1 both;" eletype="img" data-id="38">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask" style="-webkit-mask-box-image-source: url(&quot;https://file2.rrxh5.cc/g2/c1/2017/04/21/1492756007544.png&quot;);mask-box-image-slice: initial;mask-box-image-width: initial;mask-box-image-outset: initial;mask-box-image-repeat: initial;">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 231rpx; height: 237rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876404568.png">
+                  </image></view>
+                </view>
+              </view>
+            </view> -->
+            <!-- <view class="element element_37 flash" style="position: absolute; left: 197rpx; top: 262rpx; width: 253rpx; height: 260rpx; z-index: 106; animation: flash 4s linear 0.5s infinite both;" eletype="img" data-id="37">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 253rpx; height: 260rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403691.png">
+                  </image></view>
+                </view>
+              </view>
+            </view> -->
+            <!-- <view class="element element_36 flash" style="position: absolute; left: 446rpx; top: 96rpx; width: 24rpx; height: 23rpx; z-index: 105; animation: flash 2s linear 0.3s infinite both;" eletype="img" data-id="36">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403284.png">
+                  </image></view>
+                </view>
+              </view>
+            </view> -->
+            <view class="element element_35 flash" style="position: absolute; left: 178rpx; top: 96rpx; width: 24rpx; height: 23rpx; z-index: 104; animation: flash 2s linear 0.3s infinite both;" eletype="img" data-id="35">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403352.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_34 fadeInLeft" style="position: absolute; left: 226rpx; top: 134rpx; width: 202rpx; height: 17rpx; z-index: 103; display: block; animation: fadeInLeft 1s ease 0.5s 1 both;" eletype="img" data-id="34">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 202rpx; height: 17rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403402.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_33 fadeInLeft" style="position: absolute; left: 219rpx; top: 77rpx; width: 206rpx; height: 50rpx; z-index: 102; display: block; animation: fadeInLeft 1s ease 0.3s 1 both;" eletype="img" data-id="33">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 206rpx; height: 50rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403812.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_32 fadeIn" style="position: absolute; left: -38rpx; top: 0rpx; width: 100%;; height: 227rpx; z-index: 101; display: block; animation: fadeIn 1s ease 0.3s 1 both;" eletype="img" data-id="32">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 100%;; height: 227rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403335.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="pt-page page_8 {{isActive === 2 ? 'pt-page-current' : ''}}" bind:touchstart="mcTouchS" bind:touchend="mcTouchE" data-id="8" style="">
+        <view class="pt-page-bg-box" style="width: 100%; height: 100%; cursor: default; opacity: 1; background-color: rgb(25, 34, 51);"></view>
+        <view>
+          <view class="pt-page-element-list-box" style="width:100%;height:100%;position: absolute;top:0;left: 38rpx;;">
+            <view class="element element_211 fadeInUp" style="position: absolute; left: 168rpx; top: 850rpx; width: 37rpx; height: 37rpx; z-index: 47; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="211">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 37rpx; height: 37rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583419.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_212 fadeInUp" style="position: absolute; left: 175rpx; top: 857rpx; width: 23rpx; height: 23rpx; z-index: 46; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="212">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 23rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876584470.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_213 fadeInLeft" style="position: absolute; left: 45rpx; top: 850rpx; width: 110rpx; height: 58rpx; z-index: 45; display: block; animation: fadeInLeft 1s ease 1.7s 1 both;" eletype="div" data-id="213">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">2012.8-</span>
+                  <view>
+                    <span style="color: rgb(77, 201, 174); font-size: 24rpx;">2013.8</span>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_214 fadeInLeft" style="position: absolute; left: 220rpx; top: 845rpx; width: 400rpx; height: 35rpx; z-index: 44; display: block; animation: fadeInLeft 1s ease 1.9s 1 both;" eletype="plugin" data-id="214">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: bold; font-style: normal; color: rgb(77, 201, 174); font-size: 26rpx; line-height: 35rpx; letter-spacing: -2rpx; text-align: left; vertical-align: top;">
+                      <span style="display: none;">
+                        <span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+                          <span class="char1" style="display: inline-block; visibility: visible;">
+                            北
+                          </span>
+                          <span class="char2" style="display: inline-block; visibility: visible;">
+                            京
+                          </span>
+                          <span class="char3" style="display: inline-block; visibility: visible;">
+                            著
+                          </span>
+                          <span class="char4" style="display: inline-block; visibility: visible;">
+                            名
+                          </span>
+                          <span class="char5" style="display: inline-block; visibility: visible;">
+                            设
+                          </span>
+                          <span class="char6" style="display: inline-block; visibility: visible;">
+                            计
+                          </span>
+                          <span class="char7" style="display: inline-block; visibility: visible;">
+                            有
+                          </span>
+                          <span class="char8" style="display: inline-block; visibility: visible;">
+                            限
+                          </span>
+                          <span class="char9" style="display: inline-block; visibility: visible;">
+                            公
+                          </span>
+                          <span class="char10" style="display: inline-block; visibility: visible;">
+                            司
+                          </span>
+                        </span>
+                        <span class="word2" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span>
+                        <span class="word3" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+                          <span class="char1" style="display: inline-block; visibility: visible;">
+                            平
+                          </span>
+                          <span class="char2" style="display: inline-block; visibility: visible;">
+                            面
+                          </span>
+                          <span class="char3" style="display: inline-block; visibility: visible;">
+                            设
+                          </span>
+                          <span class="char4" style="display: inline-block; visibility: visible;">
+                            计
+                          </span>
+                        </span>
+                      </span>
+                      <view class="texts" style="display: table;">
+                        <view class="current">北京著名设计有限公司 平面设计</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_215 fadeInLeft" style="position: absolute; left: 220rpx; top: 890rpx; width: 450rpx; height: 60rpx; z-index: 43; display: block; animation: fadeInLeft 1s ease 1.9s 1 both;" eletype="div" data-id="215">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 20rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="font-size: 20rpx; color: rgb(255, 255, 255);">
+                    1.主要负责平面视觉 画册 &nbsp;网站 &nbsp;
+                  </span>
+                  <view style="color: rgb(255, 255, 255);">2.海报设计和网站图片设计</view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_216 fadeInUp" style="position: absolute; left: 168rpx; top: 723rpx; width: 37rpx; height: 37rpx; z-index: 42; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="216">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 37rpx; height: 37rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583419.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_217 fadeInUp" style="position: absolute; left: 175rpx; top: 730rpx; width: 23rpx; height: 23rpx; z-index: 41; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="217">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 23rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876584470.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_218 fadeInLeft" style="position: absolute; left: 45rpx; top: 723rpx; width: 110rpx; height: 58rpx; z-index: 40; display: block; animation: fadeInLeft 1s ease 1.7s 1 both;" eletype="div" data-id="218">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">2012.8-</span>
+                  <view>
+                    <span style="color: rgb(77, 201, 174); font-size: 24rpx;">2013.8</span>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_219 fadeInLeft" style="position: absolute; left: 220rpx; top: 718rpx; width: 400rpx; height: 35rpx; z-index: 39; display: block; animation: fadeInLeft 1s ease 1.9s 1 both;" eletype="plugin" data-id="219">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: bold; font-style: normal; color: rgb(77, 201, 174); font-size: 26rpx; line-height: 35rpx; letter-spacing: -2rpx; text-align: left; vertical-align: top;">
+                      <span style="display: none;">
+                        <span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+                          <span class="char1" style="display: inline-block; visibility: visible;">
+                            北
+                          </span>
+                          <span class="char2" style="display: inline-block; visibility: visible;">
+                            京
+                          </span>
+                          <span class="char3" style="display: inline-block; visibility: visible;">
+                            著
+                          </span>
+                          <span class="char4" style="display: inline-block; visibility: visible;">
+                            名
+                          </span>
+                          <span class="char5" style="display: inline-block; visibility: visible;">
+                            设
+                          </span>
+                          <span class="char6" style="display: inline-block; visibility: visible;">
+                            计
+                          </span>
+                          <span class="char7" style="display: inline-block; visibility: visible;">
+                            有
+                          </span>
+                          <span class="char8" style="display: inline-block; visibility: visible;">
+                            限
+                          </span>
+                          <span class="char9" style="display: inline-block; visibility: visible;">
+                            公
+                          </span>
+                          <span class="char10" style="display: inline-block; visibility: visible;">
+                            司
+                          </span>
+                        </span>
+                        <span class="word2" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span>
+                        <span class="word3" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+                          <span class="char1" style="display: inline-block; visibility: visible;">
+                            平
+                          </span>
+                          <span class="char2" style="display: inline-block; visibility: visible;">
+                            面
+                          </span>
+                          <span class="char3" style="display: inline-block; visibility: visible;">
+                            设
+                          </span>
+                          <span class="char4" style="display: inline-block; visibility: visible;">
+                            计
+                          </span>
+                        </span>
+                      </span>
+                      <view class="texts" style="display: table;">
+                        <view class="current">北京著名设计有限公司 平面设计</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_220 fadeInLeft" style="position: absolute; left: 220rpx; top: 763rpx; width: 450rpx; height: 60rpx; z-index: 38; display: block; animation: fadeInLeft 1s ease 1.9s 1 both;" eletype="div" data-id="220">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 20rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="font-size: 20rpx; color: rgb(255, 255, 255);">
+                    1.主要负责平面视觉 画册 &nbsp;网站 &nbsp;
+                  </span>
+                  <view style="color: rgb(255, 255, 255);">2.海报设计和网站图片设计</view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_221 fadeInLeft" style="position: absolute; left: 220rpx; top: 634rpx; width: 450rpx; height: 60rpx; z-index: 37; display: block; animation: fadeInLeft 1s ease 1.9s 1 both;" eletype="div" data-id="221">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 20rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="font-size: 20rpx; color: rgb(255, 255, 255);">
+                    1.主要负责平面视觉 画册 &nbsp;网站 &nbsp;
+                  </span>
+                  <view style="color: rgb(255, 255, 255);">2.海报设计和网站图片设计</view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_222 fadeInLeft" style="position: absolute; left: 220rpx; top: 589rpx; width: 400rpx; height: 35rpx; z-index: 36; display: block; animation: fadeInLeft 1s ease 1.8s 1 both;" eletype="plugin" data-id="222">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: bold; font-style: normal; color: rgb(77, 201, 174); font-size: 26rpx; line-height: 35rpx; letter-spacing: -2rpx; text-align: left; vertical-align: top;">
+                      <view class="texts" style="display: table;">
+                        <view class="current">北京著名设计有限公司 平面设计</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_223 fadeInLeft" style="position: absolute; left: 45rpx; top: 594rpx; width: 110rpx; height: 58rpx; z-index: 35; display: block; animation: fadeInLeft 1s ease 1.7s 1 both;" eletype="div" data-id="223">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 24rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174); font-size: 24rpx;">2012.8-</span>
+                  <view>
+                    <span style="color: rgb(77, 201, 174); font-size: 24rpx;">2013.8</span>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_224 fadeIn" style="position: absolute; left: 471rpx; top: 320rpx; width: 128rpx; height: 66rpx; z-index: 34; display: block; animation: fadeIn 1s ease 1.6s 1 both;" eletype="div" data-id="224">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 52rpx; line-height: 1.25; cursor: default; font-weight: bold; text-align: center; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174);">ID</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_225 fadeIn" style="position: absolute; left: 343rpx; top: 419rpx; width: 128rpx; height: 66rpx; z-index: 33; display: block; animation: fadeIn 1s ease 1.4s 1 both;" eletype="div" data-id="225">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 52rpx; line-height: 1.25; cursor: default; font-weight: bold; text-align: center; opacity: 1;">
+                  <span style="color: rgb(77, 201, 174);">CRD</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_226 fadeIn" style="position: absolute; left: 204rpx; top: 322rpx; width: 128rpx; height: 66rpx; z-index: 32; display: block; animation: fadeIn 1s ease 1s 1 both;" eletype="div" data-id="226">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 52rpx; line-height: 1.25; cursor: default; font-weight: bold; text-align: center; opacity: 1;">
+                  <view>
+                    <span style="color: rgb(77, 201, 174); line-height: 1.25; font-size: 52rpx;">
+                      AI
+                    </span>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_227 fadeInLeft" style="position: absolute; left: 46rpx; top: 401rpx; width: 128rpx; height: 60rpx; z-index: 31; display: block; animation: fadeInLeft 1s ease 0.7s 1 both;" eletype="div" data-id="227">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 52rpx; line-height: 1.25; cursor: default; font-weight: bold; text-align: center; opacity: 1;">
+                  <view>
+                    <span style="color: rgb(77, 201, 174); line-height: 1.25; font-size: 52rpx;">
+                      PS
+                    </span>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_228 fadeIn" style="position: absolute; left: 469rpx; top: 289rpx; width: 132rpx; height: 132rpx; z-index: 30; display: block; animation: fadeIn 1s ease 1.5s 1 both;" eletype="img" data-id="228">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 132rpx; height: 132rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495877872782.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_229 fadeIn" style="position: absolute; left: 343rpx; top: 388rpx; width: 132rpx; height: 132rpx; z-index: 29; display: block; animation: fadeIn 1s ease 1.3s 1 both;" eletype="img" data-id="229">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 132rpx; height: 132rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495877872782.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_230 fadeIn" style="position: absolute; left: 202rpx; top: 289rpx; width: 132rpx; height: 132rpx; z-index: 28; display: block; animation: fadeIn 1s ease 0.9s 1 both;" eletype="img" data-id="230">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 132rpx; height: 132rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495877872782.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_231 fadeIn" style="position: absolute; left: 454rpx; top: 383rpx; width: 57rpx; height: 48rpx; z-index: 26; display: block; animation: fadeIn 1s ease 1.4s 1 both;" eletype="img" data-id="231">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 57rpx; height: 48rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495877872280.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_232 fadeInUp" style="position: absolute; left: 175rpx; top: 601rpx; width: 23rpx; height: 23rpx; z-index: 25; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="232">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none;width: 23rpx;height: 23rpx;margin-left: 0rpx;margin-top: 0rpx;transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876584470.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_233 fadeInLeft" style="position: absolute; left: 46rpx; top: 364rpx; width: 132rpx; height: 132rpx; z-index: 24; display: block; animation: fadeInLeft 1s ease 0.5s 1 both;" eletype="img" data-id="233">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 132rpx; height: 132rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495877872782.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_234 fadeIn" style="position: absolute; left: 166rpx; top: 362rpx; width: 59rpx; height: 43rpx; z-index: 22; display: block; animation: fadeIn 1s ease 0.8s 1 both;" eletype="img" data-id="234">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 59rpx; height: 43rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495877872868.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_235 fadeIn" style="position: absolute; left: 318rpx; top: 369rpx; width: 47rpx; height: 58rpx; z-index: 21; display: block; animation: fadeIn 1s ease 1.2s 1 both;" eletype="img" data-id="235">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 47rpx; height: 58rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495877872888.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_236 fadeInUp" style="position: absolute; left: 168rpx; top: 594rpx; width: 37rpx; height: 37rpx; z-index: 19; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="236">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 37rpx; height: 37rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583419.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_237 fadeInUp" style="position: absolute; left: 184rpx; top: 578rpx; width: 3rpx; height: 381rpx; z-index: 17; display: block; animation: fadeInUp 1s ease 0.3s 1 both;" eletype="img" data-id="237">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 3rpx; height: 381rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583542.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_238 fadeInLeft" style="position: absolute; left: 220rpx; top: 134rpx; width: 206rpx; height: 17rpx; z-index: 14; display: block; animation: fadeInLeft 1s ease 0.5s 1 both;" eletype="img" data-id="238">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 206rpx; height: 17rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583538.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_239 fadeInLeft" style="position: absolute; left: 219rpx; top: 77rpx; width: 206rpx; height: 49rpx; z-index: 13; display: block; animation: fadeInLeft 1s ease 0.3s 1 both;" eletype="img" data-id="239">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 206rpx; height: 49rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583550.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_240 flash" style="position: absolute; left: 440rpx; top: 96rpx; width: 24rpx; height: 23rpx; z-index: 12; animation: flash 2s linear 0.3s infinite both;" eletype="img" data-id="240">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583635.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_241 flash" style="position: absolute; left: 176rpx; top: 96rpx; width: 24rpx; height: 23rpx; z-index: 11; animation: flash 2s linear 0.3s infinite both;" eletype="img" data-id="241">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876583803.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_242 fadeIn" style="position: absolute; left: -38rpx; top: 0rpx; width: 100%;; height: 227rpx; z-index: 10; display: block; animation: fadeIn 1s ease 0.3s 1 both;" eletype="img" data-id="242">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 100%;; height: 227rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403335.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="pt-page page_6 {{isActive === 3 ? 'pt-page-current' : ''}}" bind:touchstart="mcTouchS" bind:touchend="mcTouchE" data-id="6" style="">
+        <view class="pt-page-bg-box" style="width: 100%; height: 100%; cursor: default; opacity: 1; background-color: rgb(25, 34, 51);"></view>
+        <view>
+          <view class="pt-page-element-list-box" style="width:100%;height:100%;position: absolute;top:0;left: 38rpx;;">
+            <view class="element element_284 " style="position:absolute;left:85rpx;top:244.99993896484rpx;width:475rpx;height:100%;;z-index:15;" eletype="plugin" data-id="284">
+              <view style="width: 100%; height: 100%; overflow: inherit;">
+                <view class="element-last" style="width: 100%; height: 100%; opacity: 1; transition: opacity 1000ms;">
+                  <view class="rrx-pg-cards-index">
+                    <view class="cardList">
+                      <view data-id="1" class="c_cardBox" style="background-color: rgb(255, 255, 255); border-style: none; border-width: 1rpx; border-color: rgb(33, 150, 243); border-radius: 12rpx; opacity: 1; z-index: 10002; transform: translateX(0px) scale(1, 1) translateZ(0px);">
+                        <view class="c_card">
+                          <view class="cardImgBox" style="border-top-left-radius:12rpx;border-top-right-radius:12rpx;background-image:url(http://file2.rrxh5.cc/g2/c1/2017/05/27/1495879331508.jpg@!user_image_500x1);height:60%;width:100%"></view>
+                          <view class="cardTitleBox" style="display:block;color:#000000;font-size:36px">
+                            <p class="cardTitle">作品展示</p>
+                          </view>
+                          <view class="cardDesBox" style="display:block;color:#666;font-size:26px">
+                            <p class="cardDes">系列作品，仅供参考</p>
+                          </view>
+                        </view>
+                      </view>
+                      <view data-id="2" class="c_cardBox" style="background-color: rgb(255, 255, 255); border-style: none; border-width: 1rpx; border-color: rgb(33, 150, 243); border-radius: 12rpx; z-index: 999; opacity: 0.8; transform: translateX(20px) scale(1, 0.96) translateZ(0px);">
+                        <view class="c_card">
+                          <view class="cardImgBox" style="border-top-left-radius:12rpx;border-top-right-radius:12rpx;background-image:url(http://file2.rrxh5.cc/g2/c1/2017/05/27/1495879331972.jpg@!user_image_500x1);height:100%;width:100%"></view>
+                          <view class="cardTitleBox" style="display:none;color:#000000;font-size:36px">
+                            <p class="cardTitle"></p>
+                          </view>
+                          <view class="cardDesBox" style="display:none;color:#666;font-size:26px">
+                            <p class="cardDes"></p>
+                          </view>
+                        </view>
+                      </view>
+                      <view data-id="3" class="c_cardBox" style="background-color: rgb(255, 255, 255); border-style: none; border-width: 1rpx; border-color: rgb(33, 150, 243); border-radius: 12rpx; z-index: 999; transform: translateX(0px) scale(1, 1) translateZ(0px);">
+                        <view class="c_card">
+                          <view class="cardImgBox" style="border-top-left-radius:12rpx;border-top-right-radius:12rpx;background-image:url(http://file2.rrxh5.cc/g2/c1/2017/05/27/1495879330227.jpg@!user_image_500x1);height:100%;width:100%"></view>
+                          <view class="cardTitleBox" style="display:none;color:#000000;font-size:36px">
+                            <p class="cardTitle"></p>
+                          </view>
+                          <view class="cardDesBox" style="display:none;color:#666;font-size:26px">
+                            <p class="cardDes"></p>
+                          </view>
+                        </view>
+                      </view>
+                      <view data-id="4" class="c_cardBox" style="background-color: rgb(255, 255, 255); border-style: none; border-width: 1rpx; border-color: rgb(33, 150, 243); border-radius: 12rpx; z-index: 999; opacity: 0.8; transform: translateX(-20px) scale(1, 0.96) translateZ(0px);">
+                        <view class="c_card">
+                          <view class="cardImgBox" style="border-top-left-radius:12rpx;border-top-right-radius:12rpx;background-image:url(http://file2.rrxh5.cc/g2/c1/2017/05/27/1495879331606.jpg@!user_image_500x1);height:100%;width:100%"></view>
+                          <view class="cardTitleBox" style="display:none;color:#000000;font-size:36px">
+                            <p class="cardTitle"></p>
+                          </view>
+                          <view class="cardDesBox" style="display:none;color:#666;font-size:26px">
+                            <p class="cardDes"></p>
+                          </view>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_252 " style="position:absolute;left:440.99990844727rpx;top:96rpx;width:24rpx;height:23rpx;z-index:14;" eletype="img" data-id="252">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878951133.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_251 " style="position:absolute;left:219.99989318848rpx;top:134rpx;width:207rpx;height:17rpx;z-index:13;" eletype="img" data-id="251">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 207rpx; height: 17rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878951625.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_250 " style="position:absolute;left:218.99989318848rpx;top:77rpx;width:207rpx;height:49rpx;z-index:12;" eletype="img" data-id="250">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 207rpx; height: 49rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878951262.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_249 " style="position:absolute;left:177rpx;top:96rpx;width:24rpx;height:23rpx;z-index:11;" eletype="img" data-id="249">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878951593.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_117 " style="position:absolute;left:-38rpx;top:0rpx;width:100%;;height:227rpx;z-index:10;" eletype="img" data-id="117">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 100%;; height: 227rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403335.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="pt-page page_11 {{isActive === 4 ? 'pt-page-current' : ''}}" bind:touchstart="mcTouchS" bind:touchend="mcTouchE" data-id="11" style="">
+        <view class="pt-page-bg-box" style="width: 100%; height: 100%; cursor: default; opacity: 1; background-color: rgb(25, 34, 51);"></view>
+        <view>
+          <view class="pt-page-element-list-box" style="width:100%;height:100%;position: absolute;top:0;left: 38rpx;;">
+            <view class="element element_288 " style="position:absolute;left:386rpx;top:929rpx;width:232rpx;height:34rpx;z-index:25;" eletype="div" data-id="288">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 26rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(255, 255, 255); font-size: 26rpx;">690599462</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_287 " style="position:absolute;left:386rpx;top:875.5rpx;width:230rpx;height:34rpx;z-index:24;" eletype="div" data-id="287">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 26rpx; line-height: 1; cursor: default; opacity: 1;">
+                  <span style="color: rgb(255, 255, 255); font-size: 26rpx;">hr@starlord.cn</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_286 " style="position:absolute;left:101rpx;top:929rpx;width:210rpx;height:35rpx;z-index:23;" eletype="div" data-id="286">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 26rpx; line-height: 1.25; cursor: default; opacity: 1;">
+                  <span style="color: rgb(255, 255, 255); font-size: 26rpx;">0690599462</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_285 " style="position:absolute;left:101rpx;top:875.5rpx;width:210rpx;height:38rpx;z-index:22;" eletype="div" data-id="285">
+              <view style="color: rgb(0, 0, 0); text-align: left; width: 100%; height: 100%; overflow: hidden;writing-mode: horizontal-tb; writing-mode: horizontal-tb;">
+                <view class="element-last" style="width: 100%; min-height: inherit; padding: 0px 5rpx; word-wrap: break-word; word-break: break-all; font-size: 26rpx; line-height: 1.25; cursor: default;">
+                  <span style="color: rgb(255, 255, 255); font-size: 26rpx;">055164661020</span>
+                </view>
+              </view>
+            </view>
+            <view class="element element_283 " style="position:absolute;left:143rpx;top:693rpx;width:364rpx;height:36rpx;z-index:21;" eletype="plugin" data-id="283">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view class="element-last" style="width:100%;height:100%;">
+                  <view style="display: table; height: 100%; width: 100%;">
+                    <view class="animateText" style="font-family: 黑体; width: 100%; height: 100%; display: table-cell; word-wrap: break-word; word-break: break-all; min-height: inherit; font-weight: normal; font-style: normal; color: rgb(255, 255, 255); font-size: 30rpx; line-height: 30rpx; letter-spacing: 0rpx; text-align: center; vertical-align: top;">
+                      <span style="display: none;">
+                        <span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+                          <span class="char1 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            扫
+                          </span>
+                          <span class="char2 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            码
+                          </span>
+                          <span class="char3 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            二
+                          </span>
+                          <span class="char4 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            维
+                          </span>
+                          <span class="char5 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            码
+                          </span>
+                          <span class="char6 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            添
+                          </span>
+                          <span class="char7 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            加
+                          </span>
+                          <span class="char8 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            好
+                          </span>
+                          <span class="char9 animated fadeInRight" style="display: inline-block; visibility: visible;">
+                            友
+                          </span>
+                        </span>
+                      </span>
+                      <view class="texts" style="display: table;">
+                        <view class="current">扫码二维码添加好友</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_282 " style="position:absolute;left:338rpx;top:930.99993896484rpx;width:37rpx;height:32rpx;z-index:20;" eletype="img" data-id="282">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 37rpx; height: 32rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996523.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_281 " style="position:absolute;left:342rpx;top:881rpx;width:29rpx;height:23rpx;z-index:19;" eletype="img" data-id="281">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 29rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996465.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_280 " style="position:absolute;left:56.000007629395rpx;top:929rpx;width:31rpx;height:35rpx;z-index:18;" eletype="img" data-id="280">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 31rpx; height: 35rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996330.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_279 " style="position:absolute;left:55.000007629395rpx;top:875rpx;width:35rpx;height:36rpx;z-index:17;" eletype="img" data-id="279">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 35rpx; height: 36rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996229.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_277 " style="position:absolute;left:146rpx;top:315rpx;width:359rpx;height:359rpx;z-index:15;" eletype="img" data-id="277">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 359rpx; height: 359rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996463.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_276 " style="position:absolute;left:439.99990844727rpx;top:96rpx;width:24rpx;height:23rpx;z-index:14;" eletype="img" data-id="276">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996965.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_275 " style="position:absolute;left:220.99987792969rpx;top:134rpx;width:204rpx;height:17rpx;z-index:13;" eletype="img" data-id="275">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 204rpx; height: 17rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996402.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_274 " style="position:absolute;left:219.99987792969rpx;top:76rpx;width:206rpx;height:51rpx;z-index:12;" eletype="img" data-id="274">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 206rpx; height: 51rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996197.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_273 " style="position:absolute;left:176rpx;top:96rpx;width:24rpx;height:23rpx;z-index:11;" eletype="img" data-id="273">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 24rpx; height: 23rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495878996253.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="element element_272 " style="position:absolute;left:-34.000003814697rpx;top:0rpx;width:100%;;height:227rpx;z-index:10;" eletype="img" data-id="272">
+              <view style="width: 100%; height: 100%; overflow: hidden;">
+                <view style="width:100%;height:100%;position:relative;" class="element-last-box">
+                  <view class="element-mask">
+                    <image class="element-last" style="-webkit-user-drag: none; width: 100%;; height: 227rpx; margin-left: 0rpx; margin-top: 0rpx; transform: none;" src="https://file2.rrxh5.cc/g2/c1/2017/05/27/1495876403335.png"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="pt-progress" style="position: absolute; z-index: 100; bottom: 0rpx; left: 0rpx; display: block; width: 100%; height: 7rpx; background-color: rgba(0, 0, 0, 0.2);">
+      <span class="progress-tip" style="display: block; width: {{(isActive+1) * 20}}%; height: 100%; background-color: rgb(8, 161, 239);"></span>
+      <span class="page-tip" style="display: inline-block; position: absolute; font-size: 16rpx; bottom: 10rpx; right: 10rpx; color: rgb(255, 255, 255);">
+        {{isActive + 1}}/5
+      </span>
+    </view>
+  </view>
+  <view class="arrow-down" style="display: block;">
+    <p></p>
+  </view>
+  <view class="arrow-right">
+    <p></p>
+  </view>
+  <view class="music music-play" style="right: 23rpx; top: 3%; display: block; background-image: url(&quot;https://view.rrxh5.cc/images/icon_music_on2.png&quot;);">
+    <span class="music1">
+      <s></s>
+    </span>
+    <span class="music2">
+      <s></s>
+    </span>
+    <span class="music3">
+      <s></s>
+    </span>
+  </view>
+  <view class="sidle-share rrx-icon-share"></view>
+  <view class="sidle-report rrx-icon-report"></view>
+</view>
