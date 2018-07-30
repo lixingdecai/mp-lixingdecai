@@ -4,6 +4,7 @@ const app = getApp();
 
 Page({
   data: {
+    pageY: 0,
     motto: "Hello World",
     userInfo: {},
     hasUserInfo: false,
@@ -16,13 +17,15 @@ Page({
       blob: "http://lixingdecai.com",
       education: "本科",
       duration: "7年",
+      school: '厦门理工',
       email: 'lixingdecai@gmail.com',
       phone: "15980834526",
       intr: [
         '1、目前负责一个5人团队，主要负责公司混合应用方向;',
-        '2、前端的 NG、Vue、React 三大框架都有落地并上线项目经验;RN、Ionic、 Weex 的三种混合开发模式开发 APP 都有上线项目。负责技术选型、架构设 计、工程化等。',
-        '3、6 年工作互联网开发经验;3 年多的前端、2 年的服务端(Java Web)、半 年的 Android 原生。',
-        '4、成果:2 个互联网网站、3 个 APP、N 个后台系统、微信小程序、小米新应 用、阿里 Yun Cloud APP、微信公众号。',
+        '2、前端的 NG、Vue、React 三大框架都有落地并上线项目经验;',
+        '3、RN、Ionic、Weex 的三种混合开发模式开发 APP 都有上线项目。',
+        '4、6 年工作互联网开发经验;3 年多的前端、2年的服务端(Java Web)、半年的 Android 原生。',
+        '5、3个 APP、N个后台系统、微信小程序、小米新应用、2个互联网网站、微信公众号。',
       ],
       avatar:
         "https://wx.qlogo.cn/mmhead/Q3auHgzwzM4yU4q0t5APadCkcMFQ9qfuFezdSViasSXf4wEgIzhmnJg/0"
@@ -100,22 +103,35 @@ Page({
   mcTouchS(e) {
     this.startY = e.touches[0].clientY;
   },
+  touchmove(e) {
+    this.data.pageY = e.changedTouches[0].pageY - this.data.pageY;
+    // console.log(pageY);
+    this.setData({
+      pageY: this.data.pageY
+    })
+  },
   // MainContent组件touchend事件
   mcTouchE(e) {
     const disY = e.changedTouches[0].clientY - this.startY;
 
     // 当前在主播tab栏并且右滑
+    this.zActive = this.data.isActive;
     if (disY > 100) {
       if (this.data.isActive === 0) return;
       this.data.isActive -= 1;
+      this.data.pageGo = 'pageDown z-active';
+      // this.data.
       // false;
     } else if (disY < -100) {
       if (this.data.isActive === 4) return;
       this.data.isActive += 1;
+      this.data.pageGo = 'pageUp z-active';
       // true;
     }
     this.setData({
-      isActive: this.data.isActive
+      zActive: this.zActive,
+      isActive: this.data.isActive,
+      pageGo: this.data.pageGo,
     });
   }
 });

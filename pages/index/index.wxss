@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+
+.pageDown {
+  z-index:2;
+  display:block;
+  animation: bounceOutDown 1.0s ease 1.2s 1 both;
+}
+
+.pageUp {
+  z-index:2;
+  display:block;
+  animation: bounceOutUp 1.0s ease 1.2s 1 both;
+}
+
+
+
+
 .pt-page-element-list-box {
   left: 38rpx;
 }
