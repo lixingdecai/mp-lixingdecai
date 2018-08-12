@@ -4,6 +4,15 @@ const app = getApp();
 
 Page({
   data: {
+    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    indicatorDots: false,
+    vertical: true,
+    autoplay: false,
+    circular: false,
+    interval: 2000,
+    duration: 500,
+    previousMargin: 0,
+    nextMargin: 0,
     pageY: 0,
     motto: "Hello World",
     userInfo: {},
@@ -104,11 +113,11 @@ Page({
     this.startY = e.touches[0].clientY;
   },
   touchmove(e) {
-    this.data.pageY = e.changedTouches[0].pageY - this.data.pageY;
-    // console.log(pageY);
-    this.setData({
-      pageY: this.data.pageY
-    })
+    // this.data.pageY = e.changedTouches[0].pageY - this.data.pageY;
+    // // console.log(pageY);
+    // this.setData({
+    //   pageY: this.data.pageY
+    // })
   },
   // MainContent组件touchend事件
   mcTouchE(e) {

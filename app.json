@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/stage1/index",
+    "pages/stage2/index",
     "pages/logs/logs"
   ],
   "window":{
