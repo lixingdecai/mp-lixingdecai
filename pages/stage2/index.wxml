@@ -1,0 +1,40 @@
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+    <swiper-item>
+      <view class="baseInfo s-page">
+        <text>姓名：xxxx</text>
+        <text>电话：xxxx</text>
+        <text>学历：xxxx</text>
+        <text>年龄：xxxx</text>
+        <text>年龄：xxxx</text>
+        <text>github：xxxx</text>
+        <text>博客：xxxx</text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="expInfo-wrap s-page">
+        <text></text>
+        <view class="expInfo-comp">
+          <view class="comp-info">
+            <text class="comp-name">xxxx有限公司</text>
+            <text class="comp-positon">资深前端开发工程师</text>
+            <text class="comp-time">20XX-01 - 2020.11</text>
+          </view>
+          <view class="expInfo-item">
+            <view class="expInfo-item">
+              <view class="time">2011.09 - 2011.12</view>
+              <view class="content">
+                <view class="title">****项目</view>
+                <view class="des">
+                  <div>1、负责****</div>
+                  <div>2、实现****</div>
+                  <div>3、取得****</div>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
